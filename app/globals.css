@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 12px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-black text-white antialiased;
+}
+
+.container-width {
+  @apply max-w-7xl mx-auto px-6;
+}
